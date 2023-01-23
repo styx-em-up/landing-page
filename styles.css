@@ -1,4 +1,4 @@
-.header, section1, footer {
+.header, .section1, .footer {
     background-color: #1F2937;
 }
 .flex {
@@ -14,11 +14,33 @@ ul {
 .header {
     justify-content: space-between;
     align-items:center;
-    padding: 0px 75px;    
+    padding: 0px 100px;    
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FaF8;
     flex-shrink: 0;
+}
+
+.section1 {
+    padding: 0px 100px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.section1-left, .section1-right {
+    min-width: 50%;
+}
+img {
+    width: 100%;
+    height: fit-content;
+}   
+.secondary-text {
+    font-size: 18px;
+    color:#E5E7Eb;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
 }
