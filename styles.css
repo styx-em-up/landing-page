@@ -9,7 +9,7 @@ ul {
     font-size: 18px;
     color: #E5E7Eb;
     gap:15px;
-    flex-shrink:0;    
+    flex-wrap:wrap;   
 }
 .header {
     justify-content: space-between;
