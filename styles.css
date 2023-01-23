@@ -1,0 +1,24 @@
+.header, section1, footer {
+    background-color: #1F2937;
+}
+.flex {
+    display:flex;
+}
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7Eb;
+    gap:15px;
+    flex-shrink:0;    
+}
+.header {
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 75px;    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FaF8;
+    flex-shrink: 0;
+}
