@@ -1,45 +1,75 @@
-.header, .section1, .footer {
-    background-color: #1F2937;
-}
-.flex {
-    display:flex;
-}
-ul {
-    list-style: none;
-    font-size: 18px;
-    color: #E5E7Eb;
-    gap:15px;
-    flex-wrap:wrap;   
-}
-.header {
-    justify-content: space-between;
-    align-items:center;
-    padding: 0px 100px;    
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FaF8;
-    flex-shrink: 0;
-}
-
-.section1 {
-    padding: 0px 100px 50px;
-    justify-content: center;
-    align-items: center;
-}
-.section1-left, .section1-right {
-    width: 100%;
-}
-img {
-    width: 100%;
-}   
-.secondary-text {
-    font-size: 18px;
-    color:#E5E7Eb;
-}
-.main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FaF8;
-}
+* {
+    font-family: roboto;
+  /*   border: 2px solid yellow; */
+  }
+  .header, .section1, .footer {
+      background-color: #1F2937;
+  }
+  .flex {
+      display:flex;
+  }
+  ul {
+      list-style: none;
+      font-size: 18px;
+      color: #E5E7Eb;
+      gap:15px;
+      flex-wrap:wrap;   
+  }
+  .header {
+      justify-content: space-between;
+      align-items:center;
+      padding: 0px 100px;    
+  }
+  
+  .header-logo {
+      font-size: 24px;
+      color: #F9FaF8;
+      flex-shrink: 0;
+  }
+  
+  .section1 {
+      padding: 0px 100px 50px;
+      
+  }
+  .section1-left .section1-right {
+    width:100%;
+  }
+  
+  img {
+    margin-top:50px;
+    max-height:100%;
+    max-width:100%;
+    border-radius: 5%;
+    margin-left:auto;
+  }
+  @media only screen and (min-width: 1080px) {
+    img {max-width: 437px}
+  }
+  
+  .secondary-text {
+      font-size: 18px;
+      color:#E5E7Eb;
+      margin-top: 0px;
+  }
+  .main-text {
+      font-size: 48px;
+      font-weight: bolder;
+      color: #F9FaF8;
+      margin-bottom: 0px;
+  }
+  button {
+      align-self:flex-start;
+      background-color:#3882F6;
+      border-radius: 7px;
+      color:#FFFF;
+      font-weight:bold;
+      padding: 5px 25px;
+      margin-top: auto;
+  }
+  
+  .section1-right {
+    width:100%
+  }
+  .section1-left {
+    flex-direction:column;
+  }
