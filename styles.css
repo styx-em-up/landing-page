@@ -13,7 +13,8 @@
       font-size: 18px;
       color: #E5E7Eb;
       gap:15px;
-      flex-wrap:wrap;   
+      flex-wrap:wrap;
+      justify-content: flex-end;
   }
   .header {
       justify-content: space-between;
@@ -43,7 +44,11 @@
     margin-left:auto;
   }
   @media only screen and (min-width: 1080px) {
-    img {max-width: 437px}
+    img {max-width: 437px}  
+  }
+  
+  @media only screen and (max-width: 756px) {
+    .section1 {flex-wrap:wrap}  
   }
   
   .secondary-text {
