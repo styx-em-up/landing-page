@@ -51,14 +51,6 @@ a:link, a:visited, a:hover, a:active {
   border-radius: 5%;
   margin-left:auto;
 }
-@media only screen and (min-width: 1080px) {
-  .bigimage {max-width: 437px;}  
-}
-
-@media only screen and (max-width: 756px) {
-  .section1, .illustrations {flex-wrap:wrap}  
-  .section1, .header {padding:0px 25px;}
-}
 
 .secondary-text {
     font-size: 18px;
@@ -116,3 +108,33 @@ button {
   border-radius:10px;
 }
 .section2 {margin-bottom: 100px}
+
+.section3 {
+  height: 250px;
+  background-color: #E5E7EB;
+  padding:50px 200px;
+}
+
+.quote {
+  text-align:center;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style:italic;
+  color: #1F2937;
+  margin-bottom:0px;
+}
+.quoteauthor {
+  text-align: right;
+  font-weight:bold;
+  margin-top:0px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .bigimage {max-width: 437px;}  
+}
+
+@media only screen and (max-width: 756px) {
+  .section1, .illustrations {flex-wrap:wrap}  
+  .section1, .header, .section3 {padding: 0px 25px;}
+  .section3 {height:auto;}
+}
