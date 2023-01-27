@@ -200,7 +200,7 @@ a:active {
   .section3 {
     padding: 0px 25px;
   }
-  .section4 {padding:0px;}
+  .section4, .footer {padding:0px;}
   .section3 {
     height: auto;
   }
