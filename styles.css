@@ -137,4 +137,6 @@ button {
   .section1, .illustrations {flex-wrap:wrap}  
   .section1, .header, .section3 {padding: 0px 25px;}
   .section3 {height:auto;}
+  .illustration {margin-top:5px;}
+  .illustrations {gap:15px;}
 }
