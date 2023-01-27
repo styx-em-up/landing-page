@@ -8,14 +8,22 @@
   .flex {
       display:flex;
   }
+  
+  .catlogo {width: 80px}
+  
   ul {
       list-style: none;
-      font-size: 18px;
-      color: #E5E7Eb;
+      font-size: 18px;    
       gap:15px;
       flex-wrap:wrap;
-      justify-content: flex-end;
+      justify-content: flex-end;    
   }
+  
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #E5E7Eb;
+  }
+  
   .header {
       justify-content: space-between;
       align-items:center;
@@ -36,7 +44,7 @@
     width:100%;
   }
   
-  img {
+  .bigimage {
     margin-top:50px;
     max-height:100%;
     max-width:100%;
@@ -89,9 +97,9 @@
   }
   .illustrations {
     justify-content:center;
-    gap:60px;
-    margin-bottom 
+    gap:60px;  
   }
+  
   .section2content {
     width:140px;
   
@@ -104,5 +112,8 @@
     width: 140px;
     height:140px;
     margin-top:40px;
+    border-radius:10px;
   }
   .section2 {margin-bottom: 100px}
+  
+  .illustrations {flex-wrap:wrap} 
