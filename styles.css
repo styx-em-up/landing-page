@@ -115,7 +115,9 @@ a:active {
   height: 140px;
   margin-top: 40px;
   border-radius: 10px;
+  transition: transform 0.5s ease;
 }
+.illustration:hover {transform: scale(1.5);}
 .section2 {
   margin-bottom: 100px;
 }
