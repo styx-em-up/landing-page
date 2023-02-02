@@ -46,6 +46,9 @@ a:active {
 
 .section1 {
   padding: 0px 100px 50px;
+  background-image:url('https://pixabay.com/gifs/get/ge25e03f5b3d2f69bdd4c3e1b0c66402cc343db0abc934c5aef4b4d699c2c290c28283494300fe6626660d1adb70f3562469166a7add40b80ba76de913067210b034e10196d66a1b0720559079fdf6858_512.gif'); 
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
 }
 .section1-left .section1-right {
   width: 100%;
