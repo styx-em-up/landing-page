@@ -117,10 +117,14 @@ a:active {
   border-radius: 10px;
   transition: transform 0.5s ease;
 }
-.illustration:hover {transform: scale(1.5);}
+.illustration:hover {
+  transform: scale(1.5);
+  filter:grayscale(0%)
+}
 .section2 {
   margin-bottom: 100px;
 }
+.grayscale {filter: grayscale(100%)}
 
 .section3 {
   height: 200px;
